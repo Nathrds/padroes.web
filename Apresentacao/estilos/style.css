@@ -21,10 +21,9 @@ html, body {
 }
 
 body {
-    display: block;
     background-color: black;
     background-image: url(../imagens/foto-fundo.jpg);
-    width: 100%;
+    background-size: cover;
 }
 
 header {
