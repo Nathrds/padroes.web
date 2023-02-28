@@ -4,7 +4,7 @@ Exercícios da disciplina Padrões Web, primeiro bimestre. Faculdade de Tecnolog
 <hr>
 <br/>
 
-## [Apresentação]()
+## [Apresentação](https://nathrds.github.io/padroes.web/)
 
 Site de apresentação.
 
@@ -21,3 +21,4 @@ Site de apresentação.
 
 
 ## QR Code 
+![frame-site-apresentacao](https://user-images.githubusercontent.com/106173624/221742124-95ace7a4-4135-4ed4-8075-b092885036f1.png)
