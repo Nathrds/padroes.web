@@ -12,15 +12,16 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
     font-family: var(--fonte-padrao);
 }
 
 body {
+    /* colocar centralizado */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
     background-color: black;
     background-image: url(../imagens/foto-fundo.jpg);
     background-size: cover;
@@ -29,41 +30,45 @@ body {
 header {
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     color: var(--azul-claro);
 }
 
 main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
     background-color: var(--azul-claro);
     min-width: 300px;
     max-width: 1200px;
-    margin: auto;
+    margin: 15px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 15px 20px;
     border-radius: 50px;
-    padding: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-main > h2 {
+main > div > h2 {
     text-align: center;
     color: var(--azul-marinho);
     padding: 10px;
     margin: 5px;
 }
 
-main > img {
-    display: block;
+div.foto-perfil {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     max-width: 50%;
     padding: 10px;
 }
 
-main > p {
+div.container {
     text-align: justify;
     line-height: 1.6em;
-    margin: 10px;
-    padding: 10px;
+    margin: 15px;
+    padding: 15px 20px;
 }
 
 nav {
@@ -73,14 +78,12 @@ nav {
 }
 
 nav > h2 {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding: 15px 20px;
     margin: 5px;
 }
 
 nav > p {
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding: 15px 20px;
 }
 
 nav > p > a {
@@ -97,7 +100,7 @@ nav > p > a:hover {
 
 footer {
     color: var(--azul-claro);
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 15px;
     text-align: center;
 }
