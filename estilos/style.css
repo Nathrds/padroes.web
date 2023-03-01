@@ -54,14 +54,22 @@ main > div > h2 {
     color: var(--azul-marinho);
     padding: 10px;
     margin: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 }
 
 div.foto-perfil {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+
     max-width: 50%;
     padding: 10px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+div.foto-perfil:hover {
+    transform: scale(1.1);
 }
 
 div.container {
@@ -80,6 +88,7 @@ nav {
 nav > h2 {
     padding: 15px 20px;
     margin: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 }
 
 nav > p {
